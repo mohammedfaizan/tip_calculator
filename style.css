@@ -1,0 +1,49 @@
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.re {
+  border-bottom: 2px solid black;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: grey;
+}
+
+.tip-calculator {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border-radius: 4px;
+}
+
+#calc {
+  width: 300px;
+  height: 40px;
+  background-color: cadetblue;
+  border-radius: 6px;
+  border: none;
+}
+
+#calc:hover {
+  background-color: green;
+  color: wheat;
+}
+
+.tip-calculator label {
+  float: left;
+  width: 35%;
+}
+
+.tip-calculator input {
+  float: left;
+  width: 55%;
+}
